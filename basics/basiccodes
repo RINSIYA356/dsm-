@@ -13,3 +13,11 @@ type(a)
 
 b="sttrr"
 type(b)
+
+def function(marks):
+    total = sum(marks)
+    average=total/len(marks)
+    return total,average
+marks=[23,45,54,62]
+total,average=function(marks)
+print("sum=",total,"average=",average)
