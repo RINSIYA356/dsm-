@@ -21,3 +21,13 @@ def function(marks):
 marks=[23,45,54,62]
 total,average=function(marks)
 print("sum=",total,"average=",average)
+
+
+def add(a,b):
+    print(a+b)
+add(5,3)
+
+def ad(a,b):
+    c=a+b
+    c
+add(5,6)
